@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>The Future</title>
+</head>
+<body class="bg-custom6">
+	<header>
+		<div class="p-4 text-center text-white">
+  		<h1 class="font-serif">
+    		Virtual Reality
+  		</h1>
+  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		        <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1950.html">
+		          1950's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1960.html">
+		          1960's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1970.html">
+		          1970's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1980.html">
+		          1980's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1990.html">
+		          1990's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2000.html">
+		          2000's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="px-4 text-yellow">
+		<p> Virtual Reality has been something new added to video games because<br> it allows players to have a whole different aspect of the game. You are<br> literally driven into the game and your own movements are what is<br> happening on the screen. Some of the games that have been released<br> were, Batman: Arkham VR, Creed: Rise To Glory, Borderlands, Golf,<br> Five Nights at Freddy's VR. These games are all available through<br> the PlayStation store and all you have to do is buy a VR head<br>set and purchase a game to start your experience. It is way<br> different from a 3rd point of view and pressing buttons on<br> controller and you commanding the character what to do.<br>VR is being implemented in such various ways that it<br> has exceed people's thoughts about changes that<br> can happen. Apart from using VR in video games, it<br> is also being used other ways to help people fight<br> their anxities, traumas, and fears. </p>
+	</main>
+		
+		<a href="https://www.youtube.com/watch?v=Ppwtp7U_8fU"><img class="mx-4 py-6" src="assets/images/Bundle.jpg" alt=""></a>
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>

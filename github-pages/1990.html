@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>The Middle</title>
+</head>
+<body class="bg-custom4">
+	<header>
+		<div class="p-4 text-center text-black">
+	  		<h1 class="font-serif">
+	    		Graphics and Gameplay
+	  		</h1>
+	  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+	    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+	    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		        <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1950.html">
+		          1950's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1960.html">
+		          1960's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1970.html">
+		          1970's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1980.html">
+		          1980's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="2000.html">
+		          2000's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2010.html">
+		          2010's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="p-4 mx-10 text-black">
+		<p> In 1989, Gameboy was a portable gaming device that became a success.<br> Over the course of time Gameboy has sold over 150 million systems worldwide.<br> In 1990, SNES 'Super Nintendo Entertainment System', released its 16-bit tech-<br>nology processor which meant more entertaining games that helped sell 49 million<br> systems worldwide. Games such as 'Street Fighter', 'Mortal Kombat', and etc.<br> Based on these fighting games the issue of promoting violence aroused and it<br> wasn't good for the kids playing these games so the 'Videogame Rating Council'<br> made the industry Entertainment Software Rating Board, to keep a restriction on<br> games with certain profiles to appropriate age wise. In 1996, the Nintendo 64 was<br> released and it was also a major hit because of the amazing graphics and gameplay. </p>
+	</main>
+		
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>

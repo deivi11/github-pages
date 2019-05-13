@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>Present</title>
+</head>
+<body class="bg-custom5">
+	<header>
+		<div class="p-4 text-center text-red-dark">
+	  		<h1 class="font-serif">
+	    		Millennials
+	  		</h1>
+	  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+	    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+	    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		        <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1950.html">
+		          1950's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1960.html">
+		          1960's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1970.html">
+		          1970's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1980.html">
+		          1980's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1990.html">
+		          1990's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2010.html">
+		          2010's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="p-4 mx-10 px-6 text-red">
+		<p> This era is well known to those born in the millennial because we basically<br> grew up with video games surrounding us. Sony dominated the video game<br> market by introducing good quality games plus the integration of the Play<br>Station 2, which allowed gamers to play video games from the original Play<br>Station. This allowed gamers not throw away their money from the original<br> PlayStation games and also being able to use DVD's in the PS2. In 2001,<br> the Nintendo released a console named, GameCube, which would be the<br> first to use optimize disks and would be out there in the market as an<br> upgrade to the Nintendo 64. Nintendo has released so many consoles from<br> home consoles to portable devices such as the Nintendo DS, WII, and other<br> upgraded versions. In 2003, Microsoft introduced the Xbox 360 which would<br> become a popular console making a competition for other gaming consoles.<br> Up to this day there is still debates and arguments over the Xbox and the<br> PlayStation to see which one is better and its almost a 50/50 share.</p>
+
+		<img class="mx-10 p-4" src="assets/images/ps2.png" style="float: right;">
+	</main>
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>The Beginning</title>
+</head>
+<body class="bg-custom3">
+	<header>
+		<div class="p-4 text-center text-white">
+  		<h1>
+    		The Rise of Video Games
+  		</h1>
+  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		        <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1950.html">
+		          1950's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1960.html">
+		          1960's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1980.html">
+		          1980's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1990.html">
+		          1990's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="2000.html">
+		          2000's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2010.html">
+		          2010's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="p-4 mx-10 text-blue">
+		<p> The rise of arcade games came upon the existince of computer game,<br> 'SpaceWar'. Since it was a hit when it 
+			was on PC, Nolan Bushnell and<br> Ted Dabney, converted the PC game into the first arcade game.
+			The<br> first home video game system was called, 'Atari' in 1972. Atari's "Pong",<br> was the first arcade video game. Later that year in 1975, a home version<br> of 'Pong' was realesed for computers which was also a success. In 1977,<br> Atari redesigned the home computer by adding a joystick. A noteable<br> change in the gaming industry came when the first third-party game<br> developer, Activision, developed software without making consoles.<br> Nintendo's creation of Donkey Kong, introduced the world to the famous<br> character of Mario.</p>
+	</main>
+
+		
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>The Beginning</title>
+</head>
+<body class="bg-custom1">
+	<header>
+		<div class="p-4 text-center text-white">
+	  		<h1>
+	    		Computer Games
+	  		</h1>
+  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		       <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1960.html">
+		          1960's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1970.html">
+		          1970's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1980.html">
+		          1980's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1990.html">
+		          1990's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="2000.html">
+		          2000's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2010.html">
+		          2010's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="p-4 mx-10 text-white">
+		<p> What is a video game? As far as the definition transcribes is that in order to call<br> 
+			something a 'video game', you would need a video signal transmitted that creates<br> 
+			a rasterized image on a screen. These old fashioned computers started off only<br> 
+			consisting of three categories; training, instructional, and research games. So,<br> 
+			during the 1950's the start of some computer games were being created. A so<br> 
+			called 'Tennis' game was the very first game to be created roughly around 1958.<br> 
+			This game can mostly be related to what we mostly know as the 'Pong' game.<br> 
+			Some other games that were also being created and tested during this period<br> 
+			were, Tetris, Chess, tic-tac-toe, etc. This was going to be the start of programmers<br> 
+			making games that were going to be a huge success worldwide.  </p>
+	</main>
+
+
+		<img class="p-4" src="assets/images/computers.jpg" style="float: right">
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>

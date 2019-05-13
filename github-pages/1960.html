@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>The Beginning</title>
+</head>
+<body class="bg-custom2">
+	<header>
+		<div class="p-4 text-center text-white">
+	  		<h1>
+	    		First Computer Games
+	  		</h1>
+  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		        <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1950.html">
+		          1950's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1970.html">
+		          1970's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1980.html">
+		          1980's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1990.html">
+		          1990's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="2000.html">
+		          2000's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2010.html">
+		          2010's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="p-4 mx-10 text-red">
+		<p> After a decade of trying to create computer games, programmers made<br> these games work. The first computer game based was called 'SpaceWar'.<br> SpaceWar was invented by MIT student Steve Russel. The game became<br> so popular it spread across the country. By 1965, the first football game<br> was created by another student. Creating games was such an innovation<br> at that time that in 1966 Ralph Baer decided that he wanted to play video<br> games through a television screen. He created, "Brown Box" prototype.</p>
+	</main>
+
+
+		<img class="mx-10 p-4" src="assets/images/life.jpg">
+
+		<img src="assets/images/pong-game.jpg">
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>

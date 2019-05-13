@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/custom.css"> 
+	<title>The Process</title>
+</head>
+<body class="bg-custom">
+	<header>
+		<div class="p-4 text-center text-white">
+	  		<h1 class="font-serif">
+	    		Video Game Market Crashes
+	  		</h1>
+	  		<button class="bg-orange-dark font-bold py-2 px-4 rounded shadow-lg text-white" onclick="toggleMenu('menu', 'hidden')">
+	    		<i class="fas fa-bars"></i> <span class="sr-only">Toggle Blue</span>
+	    	</button>
+  		</div>
+  		<nav class="hidden" id="menu">
+		    <ul class="list-reset">
+		      <li class="md:ml-4">
+		       <a class="text-white" href="index.html">
+		          Home
+		        </a> 
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1950.html">
+		          1950's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="1960.html">
+		          1960's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1970.html">
+		          1970's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="1990.html">
+		          1990's
+		        </a>
+		      </li>
+		    <li class="md:ml-4">
+		        <a class="text-white" href="2000.html">
+		          2000's
+		        </a>
+		      </li>
+		      <li class="md:ml-4">
+		        <a class="text-white" href="2010.html">
+		          2010's
+		        </a>
+		      </li>
+		  </nav>
+  	</header>
+
+	<main class="container p-4 mx-10 text-white">
+		<p> The 1980's brought the competitiveness between home computers and video<br> game consoles. People were not buying the idea of purchasing gaming consoles<br> when they already had a machine at home that could do the functions that this<br> new machine was offering. During this period, we had the Video Game crash in<br> North America. This crash was the largest crash there ever was. It was due to the<br> oversaturated game console market and also the competition in prices between the<br> computer homes and the consoles started to increase price. Many games such as<br> Pacman on arcade were very successful so Atari decided to buy the rights and<br> included Pacman on their consoles and it was a huge failure due to the games<br> resolution and other factors such as loss of publishing rights due to many consoles<br> being named and thrown at the public. </p>
+	</main>
+	
+		<img class="p-4 mx-10" src="assets/images/donkey.jpg">
+
+		<iframe class="px-4" width="550" height="300" src="https://www.youtube.com/embed/x4F_sZiAl7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<script>
+		function toggleMenu(id, className) {
+			console.log('it works')
+		  	var element = document.getElementById(id);
+		  	if(className) {
+		    	element.classList.toggle(className);
+		  	}
+		  } 
+	</script>
+</body>
+</html>
